@@ -1,0 +1,33 @@
+{
+  "type": "record",
+  "name": "BourseData",
+  "namespace": "org.example",
+  "fields": [
+    { "name": "field_date_application", "type": { "type": "long", "logicalType": "timestamp-millis" } },
+    { "name": "field_closing_price", "type": "double" },
+    { "name": "field_difference", "type": "double" },
+    { "name": "field_var_veille", "type": "double" },
+    { "name": "field_best_ask_size", "type": "double" },
+    { "name": "field_transact_time", "type": { "type": "long", "logicalType": "timestamp-millis" } },
+    { "name": "field_cours_ajuste", "type": "double" },
+    { "name": "field_cumul_titres_echanges", "type": "double" },
+    { "name": "field_best_bid_size", "type": "double"},
+    { "name": "field_capitalisation", "type": "double" },
+    { "name": "field_opening_price", "type": "double" },
+    { "name": "field_total_trades", "type": "double"  },
+    { "name": "field_cours_courant", "type": "double" },
+    { "name": "field_best_ask_price", "type": "double" },
+    { "name": "sous_secteur", "type": "string" },
+    { "name": "ticker", "type": "string" },
+    { "name": "field_var_pto", "type": "double" },
+    { "name": "field_last_traded_time", "type": { "type": "long", "logicalType": "timestamp-millis" } },
+    { "name": "label", "type": "string" },
+    { "name": "field_best_bid_price", "type": "double" },
+    { "name": "field_dynamic_reference_price", "type": "double" },
+    { "name": "field_static_reference_price", "type": "double" },
+    { "name": "field_low_price", "type": "double" },
+    { "name": "field_high_price", "type": "double" },
+    { "name": "field_cumul_volume_echange", "type": "double" },
+    { "name": "field_last_traded_price", "type": "double" }
+  ]
+}
